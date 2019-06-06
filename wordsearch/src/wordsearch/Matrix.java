@@ -37,7 +37,7 @@ public class Matrix {
 }
 
 	// Method point
-    public static boolean point(List<Integer> matchList2, String word, Map<String, Integer> topTen) {
+    public static void point(List<Integer> matchList2, String word, Map<String, Integer> topTen) {
     	int point = 2;
     	for (int start = 0; start < (matchList2.size() - 4); start+=2) {
     		List<Integer> temp = (matchList2.subList(start, start + 6));
@@ -56,9 +56,6 @@ public class Matrix {
 			topTen.put(word, point);
 
     	}
-
-    	
-		return false;
     	
     }
 }

@@ -1,4 +1,4 @@
-package wordsearch;
+package wordsearch; 
 
 import java.io.File;
 import java.io.IOException;
